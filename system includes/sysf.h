@@ -11,5 +11,6 @@ typedef bool sysfboolean;
 #define DEFINE_SYSF_BOOL(bool)
 //
 #define SYSF_WRN_MSG(!)(const char * wrn_nsg)()
-
+//
+void sysfprintf(const char * _MODULUS, const char * _CSTR);
 #endif

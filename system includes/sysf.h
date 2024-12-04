@@ -10,7 +10,7 @@ typedef bool sysfboolean;
 #define DEFINE_SYSF_IF(if)
 #define DEFINE_SYSF_BOOL(bool)
 //
-#define SYSF_WRN_MSG(!)(const char * wrn_nsg)()
+#define SYSF_WRN_MSG(!)(const char * wrn_msg)()
 //
 void sysfprintf(const char * _MODULUS, const char * _CSTR);
 #endif
